@@ -21,7 +21,7 @@ form.addEventListener("submit", (event) => {
   const longitude = LongitudeInput.value;
 
   //API url and key and gets lat, lon by ${}
-  const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${latitude}&lon=${longitude}&appid=b53cff135a56178c33f88448a32074b5`;
+  const url = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${latitude}&lon=${longitude}&appid=b53cff135a56178c33f88448a32074b5`;
 
   //Will fetch url and get the data
   fetch(url)
