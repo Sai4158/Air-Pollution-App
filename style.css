@@ -13,7 +13,7 @@ body {
   background-size: cover;
 
   background-color: #bdd4f0; /* Sky Blue */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
 .hd1 {
@@ -22,7 +22,7 @@ body {
   font-weight: bold;
 }
 .hd11 {
-  margin-top: 10px;
+  margin-top: 20px;
   font-style: italic;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -32,9 +32,9 @@ body {
 }
 .hd {
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 10vh;
   font-style: italic;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   margin-top: 30vh;
   color: rgb(0, 0, 0);
 }
@@ -87,7 +87,7 @@ button:hover {
     rgba(34, 192, 195, 0.514) 0%,
     rgba(253, 187, 45, 0.824) 100%
   );
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Comfortaa", sans-serif;
   padding: 10px;
   border-radius: 50px;
   box-shadow: 0 0 1000px 2px rgba(0, 0, 0, 0.1);
@@ -117,8 +117,7 @@ button:hover {
   font-weight: bold;
 }
 .footer {
-  color: rgb(90, 51, 3);
+  color: rgb(31, 90, 3);
   text-align: center;
-  font-style: oblique;
   margin-top: 20px;
 }
