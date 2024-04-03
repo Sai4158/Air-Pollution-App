@@ -11,10 +11,16 @@ body {
   background-size: cover;
 
   background-color: #bdd4f0; /* Sky Blue */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: cursive;
 }
 
 .hd1 {
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.hd11 {
+  margin-top: 10px;
   font-style: italic;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -23,10 +29,11 @@ body {
   background-color: rgba(180, 185, 178, 0.57);
 }
 .hd {
-  margin-top: 200px;
   font-weight: bold;
   font-size: 10vh;
   font-style: italic;
+  padding-bottom: 30px;
+  margin-top: 20vh;
   color: rgb(0, 0, 0);
 }
 h1 {
@@ -67,7 +74,7 @@ button {
 }
 
 button:hover {
-  background-color: #00ff0d7e;
+  background-color: #08dd1259;
 }
 
 .info {
@@ -75,9 +82,10 @@ button:hover {
   background: rgb(34, 193, 195);
   background: linear-gradient(
     0deg,
-    rgba(34, 192, 195, 0.684) 0%,
+    rgba(34, 192, 195, 0.514) 0%,
     rgba(253, 187, 45, 0.824) 100%
   );
+  font-family: cursive;
   padding: 10px;
   border-radius: 50px;
   box-shadow: 0 0 1000px 2px rgba(0, 0, 0, 0.1);
@@ -110,4 +118,5 @@ button:hover {
   color: rgb(90, 51, 3);
   text-align: center;
   font-style: oblique;
+  margin-top: 20px;
 }
