@@ -32,10 +32,10 @@ body {
 }
 .hd {
   font-weight: bold;
-  font-size: 10vh;
+  font-size: 7vh;
   font-style: italic;
   padding-bottom: 30px;
-  margin-top: 20vh;
+  margin-top: 30vh;
   color: rgb(0, 0, 0);
 }
 h1 {
