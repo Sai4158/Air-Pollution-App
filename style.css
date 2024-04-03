@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  /*this is for bg image*/
+  background: url(https://archive.org/download/clouds-tiled/clouds-tiled.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #bdd4f0; /* Sky Blue */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hd1 {
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.hd2 {
+  background-color: rgba(180, 185, 178, 0.57);
+}
+.hd {
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: 10vh;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2vh;
+}
+
+#input-container {
+  text-align: center;
+  margin-top: 2vh;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 200px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #57d85b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ff0d7e;
+}
+
+.info {
+  text-align: center;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 192, 195, 0.684) 0%,
+    rgba(253, 187, 45, 0.824) 100%
+  );
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 1000px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 35px;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  transition: ease-in-out 1s;
+
+  /*will hide it until it is pressed*/
+  display: none;
+}
+.info:hover {
+  transform: scale(1.1);
+  background-color: #87b08ee2;
+  border-radius: 20%;
+}
+
+.info-title {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.info-data {
+  margin: 8px 0;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer {
+  color: rgb(90, 51, 3);
+  text-align: center;
+  font-style: oblique;
+}

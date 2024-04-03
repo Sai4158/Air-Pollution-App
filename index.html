@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Quality Checker</title>
+    <link rel="icon" type="png" href="icons8-air-96.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+    <form id="form">
+    <h1 class="hd">Air Quality Checker</h1>
+    <div id="input-container">
+      <label class="hd1" for="latitude">Latitude (-90° to 90)</label>
+      <input class="hd2" type="text" id="latitude" placeholder="Enter Latitude" />
+      <label class="hd1" for="longitude">Longitude (-180° to 180°)</label>
+      <input class="hd2" type="text" id="longitude" placeholder="Enter Longitude" />
+      <br />
+      <button class="hd1" type="submit">Check Air Quality</button>
+    </form>
+
+    <div class="info" id="result" >
+      <h1 class="info-title">AIR QUALITY</h1>
+     
+      <p class="info-data">AQI: <span id="AQI"></span></p>
+      <p class="info-data">CO: <span id="CO"></span></p>
+      <p class="info-data">NO2: <span id="NO2"></span></p>
+      <p class="info-data">O3: <span id="O3"></span></p>
+      <p class="info-data">PM2.5: <span id="PM2"></span></p>
+      <p class="info-data">PM10: <span id="PM10"></span></p>
+      <p class="info-data">SO2: <span id="SO2"></span></p>
+    </div>
+    </div>
+    <script src="index.js"></script>
+    <footer>
+      <h5 class="footer">Limited API Requests <br><a href="https://github.com/Sai4158" target="_blank" class="footer">SAI4158</a></h5>
+    </footer>
+  </body>
+</html>
